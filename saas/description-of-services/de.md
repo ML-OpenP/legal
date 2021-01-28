@@ -1,14 +1,12 @@
 # Leistungsbeschreibung OpenProject Enterprise Cloud
 
- 
-
-*Letzte Änderung an diesem Dokument: 2020-12-11*
+*Letzte inhaltliche Änderung an diesem Dokument: 11.12.2020*
 
 *Dies ist eine Übersetzung. Der verbindliche Text findet sich im englischen Service Level Agreement, das unter https://www.openproject.org/legal/description-of-services/ eingesehen werden kann.*
 
  
 
-Dieses SLA (Dienstleistungsgütevereinbarung) ergänzt den Servicevertrag zwischen OpenProject und dem Kunden. Es spezifiziert den Service-Level in Bezug auf den Service OpenProject Enterprise Cloud. Wir können dieses SLA von Zeit zu Zeit nach eigenem Ermessen aktualisieren.
+Dieses SLA (Service Level Agreement / Dienstleistungsgütevereinbarung) ergänzt den Servicevertrag zwischen [OpenProject](https://www.openproject.org/de/impressum/) und dem Kunden. Es spezifiziert den Service-Level in Bezug auf den Service [OpenProject Enterprise Cloud](https://www.openproject.org/de/hosting/). Wir können dieses SLA von Zeit zu Zeit nach eigenem Ermessen aktualisieren.
 
 ## 1. Unterstützung
 
@@ -25,8 +23,6 @@ Dieses SLA (Dienstleistungsgütevereinbarung) ergänzt den Servicevertrag zwisch
 | Geplanter  Bereitschaftsdienst und Upgrade-Unterstützung | -                                              | Inklusive              | Inklusive              |
 | Priorisierte Entwicklung und Eskalation                  | -                                              | Inklusive              | Inklusive              |
 
- 
-
 ### 1.2 Prioritäten bei Vorfällen
 
 **Kritische Fehler** sind Vorfälle, die die Nutzung von OpenProject verhindern oder erheblich beeinträchtigen, z. B. durch Fehlfunktionen, falsche Ergebnisse oder Reaktionszeiten, und die nicht mit zumutbaren organisatorischen Mitteln behoben werden können (kritische Bedienungsfehler).
@@ -35,15 +31,11 @@ Dieses SLA (Dienstleistungsgütevereinbarung) ergänzt den Servicevertrag zwisch
 
 - Anzeige einer bildschirmfüllenden Fehlermeldung beim Zugriff auf die OpenProject-Landingpage.
 
- 
-
 **Hauptfehler** sind Störungen, die ohne größere Schwierigkeiten umgangen werden können oder die einen Teil von OpenProject betreffen, der die Nutzung nicht direkt oder wesentlich beeinträchtigt.
 
 *Beispiel:*
 
 - Die OpenProject-Anwendung sendet keine automatischen E-Mail-Benachrichtigungen.
-
- 
 
 **Nebenfehler** sind Vorfälle, die Funktionalitäten betreffen, die für die Benutzer nicht häufig relevant sind und die von geringer Bedeutung sind, so dass der Benutzer die Funktionalität nicht über einen längeren Zeitraum benötigt.
 
@@ -70,8 +62,6 @@ Dieses SLA (Dienstleistungsgütevereinbarung) ergänzt den Servicevertrag zwisch
 |Dedizierter Support-Verantwortlicher     | - | - | Enthalten         |
 |Anzahl Supportkontakte (auf Kundenseite) |1                     |3                |8                  |
 
- 
-
 ## 2. Serviceverfügbarkeit
 
 ### 1.1 Verfügbarkeit
@@ -95,8 +85,6 @@ Als entschuldigte Ausfallzeit wird die Zeitspanne bezeichnet, in der die Dienste
 5.  Handlungen oder Unterlassungen von Ihnen, Ihren autorisierten Nutzern oder Dritten, die in Ihrem Namen oder auf Ihre Anweisung hin handeln, einschließlich einer nicht autorisierten Nutzung der Dienste, eines Verstoßes gegen den Vertrag oder die Richtlinien zur akzeptablen Nutzung (Acceptable Use Policy) oder einer Nutzung oder Konfiguration der Dienste, die die Empfehlungen oder angekündigten Grenzen von OpenProject überschreitet.
 
 
- 
-
 ### 2.2 Planmäßige Wartung
 
 Zu den **planmäßigen Wartungsarbeiten** gehören alle Wartungsarbeiten, die in den folgenden Zeitfenstern durchgeführt werden oder für die wir eine angemessene Vorankündigung oder Abstimmung mit Ihnen im Vorfeld der Wartungsarbeiten vornehmen.
@@ -104,8 +92,6 @@ Zu den **planmäßigen Wartungsarbeiten** gehören alle Wartungsarbeiten, die in
 | Standort des  Rechenzentrums | Wartungsfenster          |
 | ---------------------------- | ------------------------ |
 | Europäische Union            | 6:00 Uhr - 08:00 Uhr MEZ |
-
- 
 
 ### 2.3 Notfallwartung
 
@@ -123,15 +109,13 @@ Es werden automatisierte Amazon Relational Database Service (RDS) Backups durchg
 
 OpenProject Enterprise Cloud unterstützt nicht die Verwendung von Sicherungsdaten für das Rollback von Änderungen.
 
- 
-
 ### 3.2 Anhänge
 
 Anhänge werden ebenfalls sicher in S3 gespeichert. Der S3-Speicher ist verschlüsselt und wird über mehrere Verfügbarkeitszonen innerhalb derselben Region repliziert. Dies bietet eine Verfügbarkeit von 99,99 %. Darüber hinaus sind Dateien versioniert. Das heißt, selbst wenn sie gelöscht werden, können sie im Bedarfsfall wiederhergestellt werden. Die Anhänge und ihre Versionen bleiben über die gesamte Laufzeit des Abonnements erhalten.
 
 ## 4. Software-Aktualisierungen
 
-OpenProject wird die Software, die den Service zur Verfügung stellt, innerhalb von x Tagen nach einer Freigabe auf die höchste freigegebene Version der OpenProject-Anwendung aktualisieren. OpenProject kann auch noch nicht freigegebene Patches für die Software installieren, falls diese den Dienst verbessern. Jede installierte Softwareversion wird von OpenProject vor dem Einsatz getestet. Sollte das Update eine Ausfallzeit erfordern, wird OpenProject den Kunden mit einer Frist von 3 Tagen über die geplante Ausfallzeit informieren.
+OpenProject wird die Software, die den Service zur Verfügung stellt, innerhalb von x Tagen nach einer Freigabe auf die höchste freigegebene [Version](https://docs.openproject.org/release-notes/) der OpenProject-Anwendung aktualisieren. OpenProject kann auch noch nicht freigegebene Patches für die Software installieren, falls diese den Dienst verbessern. Jede installierte Softwareversion wird von OpenProject vor dem Einsatz getestet. Sollte das Update eine Ausfallzeit erfordern, wird OpenProject den Kunden mit einer Frist von 3 Tagen über die geplante Ausfallzeit informieren.
 
 ## 5. Richtlinie zur akzeptablen Nutzung
 
